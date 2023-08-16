@@ -49,5 +49,6 @@ def findMaxElement(arr):
 print(findMaxElement(myarray))
 
 
-
+#  above is considered O(N) : it performs a constant-time operation for each element in the array 
+#  results in a linear relationship between the input size and the number of operations.
 

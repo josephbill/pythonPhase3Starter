@@ -1,55 +1,62 @@
-## ITEMS 
-Data Types : define the type and nature of values that can be assigned to variables or manipulated in a program 
-In python : Data types are categorized in two 
-1. Immutable Data types : No change : an object that cannot be changed after creation
-   Usage  : used when we want our data to remain constant  
-2. Mutable Data types : change : an object that can be changed after creation 
-   Usage : used when we want change / updates to occur. 
+## concepts
 
--. Numeric types 
-int 
-floats 
-complex : representation of complex numbers 1 + 2j
+- Variables 
+- Variables Scope 
+- Functions 
+- Types of Functions in python
+- BIG O Notation.+
 
--. Text Types 
-str : 
+## 
 
--. Sequence Types [collections]
-list : an order of mutable collections 
-tuple : an order of immutable collections 
-range : represents a sequence of numbers 
+- Operators
+1. Artithmetic : + , - , / , * , % 
+2. Logical : and , or , not 
+3. Assignment 
 
--. Mapping Types 
-dictionaries : dict : represents key and values pairs  
-{
-   "key" : "value"
-}
+x = 10 
+y = 5
 
--. Set Types 
-set : unordered collection of unique elements { 1,2,3}
-frozenset : represents an immutable set : frozenset([4,5,6])
+x += y  # equivalent of x  = x + y 
+x -= y
+x *= y
+x /= y
+x %= y
 
--. Boolean Types 
+- Conditional Flows 
+if , elif , else 
 
-bool : True or False 
+- Control Flow statements 
+1. Sequential control flow statements 
+print("hello")
+print("hello 2")
+print("hello 3")
 
--. Binary Types 
-- bytes 
-- byteArray 
-- memoryview
+2. Conditional control flow 
+if , elif , else 
 
--. None Type 
-represents the absence of a value `None`
+3. Looping control Flows 
+for loop , while loop
 
-x = 5 
-print(type(x)) 
+4. Nested control flow
+Combine different control flows 
 
 
-Variables 
-Variables Scope 
-Functions 
-Types of Functions in python
+- Intro to Data Structures in Python 
+- Common DS 
+1. Sequences (Lists , Tuples , Ranges , Strings)
+2. Dictionaries 
+3. Sets 
+
+DS : defination , accessing , mutable (changing process) , immutable (does a hack around exist.) , CRUD(ing)
+
+- List Comprehensions
 
 
-BIG O Notation.+
+- Loops and relationship to BIG O notation. 
 
+
+- For loops , while loops ,
+
+= Loop operations : 
+control statements : break, continue 
+nested loops : outer loop , inner loop 
