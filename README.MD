@@ -60,3 +60,19 @@ DS : defination , accessing , mutable (changing process) , immutable (does a hac
 = Loop operations : 
 control statements : break, continue 
 nested loops : outer loop , inner loop 
+
+
+## Decorators (Object Oriented Programming)
+- A concept in python that allows us to modify or extend the behaviour of functions or methods without 
+directly modifying their code.  
+- Tasks for decorators 
+  1. Logging : displaying info. from the compilation process. 
+  2. Input validation : 
+  3. Authentication : modularity 
+
+## Implementing decorators 
+- They are implemented as functions.  
+- They accept functions as an arguement , modify the function and then returns the modified function. 
+
+- Functions are first class citizens ? they can be treated like any other object. i.e. being passed as arguments 
+to other functions. 
