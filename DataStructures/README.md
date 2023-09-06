@@ -25,3 +25,62 @@ Data Structures ? a way of storing and organizing data
   - execution context 
   - return 
   - parameters and arguments 
+
+
+
+## Data Structures 
+1. Linked Lists 
+2. Trees (General Tree and Binary Tree)
+3. Merge Sort 
+
+
+## Merge Sort 
+- This is a popular sorting (specific arrangement to your data set , asc, desc) algorithm 
+- This is part of divide and conquer strategy to sort an array or list of elements 
+
+list 
+divide the list into two halves 
+RECURSIVELY sort them : function that has our sort logic 
+merge the sorted halves to produce a stored output.  
+
+- The sorting behaviour is stable and a time complexity of O(n log n) , makes it efficient for large dataset
+
+## Recursion 
+
+defination : process of defining a problem or the solution to a problem in terms of a simpler version of itself.
+
+in programming : a function calling itself until a "base condition" is true to produce the correct output. 
+
+
+## uses
+1. Sorting large datasets 
+2. External Sorting 
+3. Database sorting : efficient algos.
+4. Data duplication
+
+
+## Linked Lists 
+A linked list is a data structure consisting of a sequence of elements , where each element points to the next element in the sequence 
+Useful when you need dynamic size , efficient insertions and deletions : memory
+
+## Trees 
+A tree is a hierarchial data structure in which element known as nodes are linked together via edges such that 
+there is only one path between any two nodes of the tree.  
+
+Two main categorizations 
+. General trees 
+. Binary trees 
+
+Differences : 
+1. Structure 
+tree : a tree has no restriction in the number of children that a node can have 
+binary tree :every node in a binary tree can have at most two children. (left and right child)
+
+2. Properties
+tree : a tree has no restriction in the number of children that a node can have 
+binary tree : each node can have either zero children (a leaf node) : one child (either left or right ) or two children 
+(both left and right)
+
+3. Usage
+binary tree : commonly used for tasks like sorting and searching because of its balanced structure.
+tree : commonly used to design file systems. (hierarchical data structure apps) (Charts)

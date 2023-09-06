@@ -13,13 +13,13 @@
 # Custom DSA. 
 class SimpleBrowser: 
     def __init__(self) -> None:
-        self.history = []
+        self.history = [1,2,3,4,5,6]
 
     # user accesses a page 
-    def visit(self, url):
-       print(f"Visting {url}")
+    def visit(self, nameurl):
+       print(f"Visting {nameurl}")
     #    add items to my stack 
-       self.history.append(url)
+       self.history.append(nameurl)
 
 
     # user presses the back button 
@@ -35,7 +35,7 @@ class SimpleBrowser:
 chromeBrowser = SimpleBrowser()
 
 # simulate visiting some pages 
-chromeBrowser.visit("https://www.example.com")
+chromeBrowser.visit("://www.example.com")
 chromeBrowser.visit("https://www.openai.com")
 chromeBrowser.visit("https://www.python.com")
 chromeBrowser.visit("https://www.moringaschool.com")
